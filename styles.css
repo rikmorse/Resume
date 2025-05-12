@@ -1,0 +1,121 @@
+/* GLOBAL STYLES *********************************************** */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+p {
+    margin: 10px 0;
+}
+
+/* Navigation Bar *********************************************** */
+nav {
+    margin: 20px 0;
+    background: #35424a;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #f2e708;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Home Page index.html *********************************************** */
+
+/* About Page about.html *********************************************** */
+
+/* Contact Page contact.html *********************************************** */
+
+/* Resume Page resume.html *********************************************** */
+#header1 {
+    text-align: center;
+    margin: 20px 0;
+}
+#header2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+#header3 {
+    text-align: center;
+    margin: 20px 0;
+}
+#listHeader {
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #35424a;
+    padding: 10px;
+    color: #ffffff;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 1%;
+    line-height: 1;
+}
+#jobTitle {
+    padding-left: .5%;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #d2d6d7;
+    color: #050505;
+    width: 75%;
+    border-radius: 5px;
+    margin-left: 1.5%;
+    line-height: 1;
+}
+#listStart {
+    list-style-image: url(./images/bot.png);
+    list-style-position: inside;
+    padding-left: 2%;
+    margin: 10px 0 0 0;
+}
+#listStart li {
+    margin: 0px 0;
+}
+#listItem {
+    text-align: left;
+    padding-left: 1.5%;
+    margin: 20px 0;
+}
+/* Footer *********************************************** */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+}
+
